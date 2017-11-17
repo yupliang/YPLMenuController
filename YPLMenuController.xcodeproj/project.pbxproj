@@ -14,6 +14,7 @@
 		FD2064B31FBED87700290402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2064B11FBED87700290402 /* LaunchScreen.storyboard */; };
 		FD2064B61FBED87700290402 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2064B51FBED87700290402 /* main.m */; };
 		FD2064C01FBED87700290402 /* YPLMenuControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2064BF1FBED87700290402 /* YPLMenuControllerTests.m */; };
+		FD2064CD1FBEE42500290402 /* YPLSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2064CC1FBEE42500290402 /* YPLSplitViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		FD2064BB1FBED87700290402 /* YPLMenuControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPLMenuControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2064BF1FBED87700290402 /* YPLMenuControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPLMenuControllerTests.m; sourceTree = "<group>"; };
 		FD2064C11FBED87700290402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD2064CB1FBEE42500290402 /* YPLSplitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPLSplitViewController.h; sourceTree = "<group>"; };
+		FD2064CC1FBEE42500290402 /* YPLSplitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPLSplitViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		FD20649A1FBED87600290402 = {
 			isa = PBXGroup;
 			children = (
+				FD2064CA1FBEE3EF00290402 /* Component */,
 				FD2064A51FBED87600290402 /* YPLMenuController */,
 				FD2064BE1FBED87700290402 /* YPLMenuControllerTests */,
 				FD2064A41FBED87600290402 /* Products */,
@@ -101,6 +105,15 @@
 				FD2064C11FBED87700290402 /* Info.plist */,
 			);
 			path = YPLMenuControllerTests;
+			sourceTree = "<group>";
+		};
+		FD2064CA1FBEE3EF00290402 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				FD2064CB1FBEE42500290402 /* YPLSplitViewController.h */,
+				FD2064CC1FBEE42500290402 /* YPLSplitViewController.m */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +160,7 @@
 		FD20649B1FBED87600290402 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YPL;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "PL Technology";
 				TargetAttributes = {
@@ -208,6 +222,7 @@
 				FD2064AB1FBED87700290402 /* ViewController.m in Sources */,
 				FD2064B61FBED87700290402 /* main.m in Sources */,
 				FD2064A81FBED87600290402 /* AppDelegate.m in Sources */,
+				FD2064CD1FBEE42500290402 /* YPLSplitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
