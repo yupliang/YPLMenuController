@@ -15,6 +15,8 @@
 		FD2064B61FBED87700290402 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2064B51FBED87700290402 /* main.m */; };
 		FD2064C01FBED87700290402 /* YPLMenuControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2064BF1FBED87700290402 /* YPLMenuControllerTests.m */; };
 		FD2064CD1FBEE42500290402 /* YPLSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2064CC1FBEE42500290402 /* YPLSplitViewController.m */; };
+		FD2064D01FBEE9FA00290402 /* YPLMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2064CF1FBEE9FA00290402 /* YPLMenuViewController.m */; };
+		FD2064D31FBEEA1F00290402 /* YPLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2064D21FBEEA1F00290402 /* YPLDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,10 @@
 		FD2064C11FBED87700290402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD2064CB1FBEE42500290402 /* YPLSplitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPLSplitViewController.h; sourceTree = "<group>"; };
 		FD2064CC1FBEE42500290402 /* YPLSplitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPLSplitViewController.m; sourceTree = "<group>"; };
+		FD2064CE1FBEE9FA00290402 /* YPLMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPLMenuViewController.h; sourceTree = "<group>"; };
+		FD2064CF1FBEE9FA00290402 /* YPLMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPLMenuViewController.m; sourceTree = "<group>"; };
+		FD2064D11FBEEA1F00290402 /* YPLDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPLDetailViewController.h; sourceTree = "<group>"; };
+		FD2064D21FBEEA1F00290402 /* YPLDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPLDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,10 @@
 			children = (
 				FD2064CB1FBEE42500290402 /* YPLSplitViewController.h */,
 				FD2064CC1FBEE42500290402 /* YPLSplitViewController.m */,
+				FD2064CE1FBEE9FA00290402 /* YPLMenuViewController.h */,
+				FD2064CF1FBEE9FA00290402 /* YPLMenuViewController.m */,
+				FD2064D11FBEEA1F00290402 /* YPLDetailViewController.h */,
+				FD2064D21FBEEA1F00290402 /* YPLDetailViewController.m */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -220,8 +230,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD2064AB1FBED87700290402 /* ViewController.m in Sources */,
+				FD2064D31FBEEA1F00290402 /* YPLDetailViewController.m in Sources */,
 				FD2064B61FBED87700290402 /* main.m in Sources */,
 				FD2064A81FBED87600290402 /* AppDelegate.m in Sources */,
+				FD2064D01FBEE9FA00290402 /* YPLMenuViewController.m in Sources */,
 				FD2064CD1FBEE42500290402 /* YPLSplitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -72,10 +72,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Menu View Controller-->
         <scene sceneID="Czr-v2-iBl">
             <objects>
-                <viewController id="jvM-mF-LOx" sceneMemberID="viewController">
+                <viewController id="jvM-mF-LOx" customClass="YPLMenuViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7Wh-qS-cib"/>
                         <viewControllerLayoutGuide type="bottom" id="IMq-F4-ITh"/>
@@ -90,10 +90,10 @@
             </objects>
             <point key="canvasLocation" x="1459" y="456"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="Rj1-ey-oUK">
             <objects>
-                <viewController id="Ctl-Hw-fDn" sceneMemberID="viewController">
+                <viewController id="Ctl-Hw-fDn" customClass="YPLDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FMb-JF-eXt"/>
                         <viewControllerLayoutGuide type="bottom" id="kcu-qk-pac"/>
