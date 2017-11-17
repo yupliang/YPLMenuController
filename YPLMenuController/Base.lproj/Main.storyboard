@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Split View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="YPLSplitViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9st-cr-dhO"/>
                         <viewControllerLayoutGuide type="bottom" id="peU-Y6-Bkb"/>
@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvR-OV-CyO">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvR-OV-CyO">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ul-ZY-2A3" userLabel="Menu">
@@ -50,6 +50,9 @@
                                     <constraint firstAttribute="bottom" secondItem="tvp-Xb-TYQ" secondAttribute="bottom" id="uMd-PH-51d"/>
                                     <constraint firstItem="7ul-ZY-2A3" firstAttribute="top" secondItem="tvR-OV-CyO" secondAttribute="top" id="wM9-Jp-nAZ"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="O8a-Qj-tnN"/>
+                                </connections>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -62,6 +65,9 @@
                             <constraint firstItem="tvp-Xb-TYQ" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="tsm-oz-CMM"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="scrollView" destination="tvR-OV-CyO" id="mEb-QR-Ouf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -70,6 +76,10 @@
         <scene sceneID="Czr-v2-iBl">
             <objects>
                 <viewController id="jvM-mF-LOx" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7Wh-qS-cib"/>
+                        <viewControllerLayoutGuide type="bottom" id="IMq-F4-ITh"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="X4g-M3-GbF">
                         <rect key="frame" x="0.0" y="0.0" width="80" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -84,6 +94,10 @@
         <scene sceneID="Rj1-ey-oUK">
             <objects>
                 <viewController id="Ctl-Hw-fDn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FMb-JF-eXt"/>
+                        <viewControllerLayoutGuide type="bottom" id="kcu-qk-pac"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2Af-mO-3b1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
