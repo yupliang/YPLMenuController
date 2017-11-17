@@ -24,6 +24,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)setContent:(NSString *)content {
+    self.contentLabel.text = content;
+}
+
 /*
 #pragma mark - Navigation
 

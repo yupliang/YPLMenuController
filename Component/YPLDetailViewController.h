@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YPLSplitViewController.h"
 
-@interface YPLDetailViewController : UIViewController
+@interface YPLDetailViewController : UIViewController<YPLDetailViewController>
+
+@property (weak,nonatomic) IBOutlet UILabel *contentLabel;
+@property (nonatomic,strong) NSString *content;
 
 @end

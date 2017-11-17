@@ -8,6 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol YPLDetailViewController
+
+@required
+@property (nonatomic,strong) id content;
+
+@end
+
+@protocol YPLSplitViewControllerDelegate
+
+@end
+
 @interface YPLSplitViewController : UIViewController
+
+@property (nonatomic,weak) UIViewController<YPLDetailViewController> *detailViewController;
+@property (nonatomic,strong) id dataItem;
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YPLSplitViewController.h"
 
 @interface YPLTableViewController : UITableViewController
 

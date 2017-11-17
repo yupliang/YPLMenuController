@@ -111,12 +111,27 @@
                     <view key="view" contentMode="scaleToFill" id="2Af-mO-3b1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JYl-AH-3UN">
+                                <rect key="frame" x="130" y="304" width="116" height="60"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.74901960779999999" green="0.60392156860000001" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="JYl-AH-3UN" firstAttribute="centerY" secondItem="2Af-mO-3b1" secondAttribute="centerY" id="awK-Pn-e7v"/>
+                            <constraint firstItem="JYl-AH-3UN" firstAttribute="centerX" secondItem="2Af-mO-3b1" secondAttribute="centerX" id="eU6-zv-KgA"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="contentLabel" destination="JYl-AH-3UN" id="RFR-yA-FVK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kkq-jY-vwJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1458" y="-405"/>
+            <point key="canvasLocation" x="1456.8" y="-405.24737631184411"/>
         </scene>
     </scenes>
 </document>

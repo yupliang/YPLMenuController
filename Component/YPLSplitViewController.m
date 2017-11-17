@@ -7,13 +7,31 @@
 //
 
 #import "YPLSplitViewController.h"
+#import "YPLDetailViewController.h"
 
 @interface YPLSplitViewController ()<UIScrollViewDelegate>
 
 @property (weak,nonatomic) IBOutlet UIScrollView *scrollView;
+
 @end
 
 @implementation YPLSplitViewController
+
+- (UIViewController *)detailViewController {
+    if (_detailViewController == nil) {
+        [self.childViewControllers enumerateObjectsUsingBlock:^(__kindof UIViewController * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            if ([obj conformsToProtocol:@protocol(YPLDetailViewController)]) {
+                _detailViewController = obj;
+            }
+        }];
+    }
+    return _detailViewController;
+}
+
+- (void)setDataItem:(id)dataItem {
+    _dataItem = dataItem;
+    self.detailViewController.content = dataItem;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
