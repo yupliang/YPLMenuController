@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvR-OV-CyO">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvR-OV-CyO">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ul-ZY-2A3" userLabel="Menu">
@@ -70,6 +70,10 @@
         <scene sceneID="Czr-v2-iBl">
             <objects>
                 <viewController id="jvM-mF-LOx" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7Wh-qS-cib"/>
+                        <viewControllerLayoutGuide type="bottom" id="IMq-F4-ITh"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="X4g-M3-GbF">
                         <rect key="frame" x="0.0" y="0.0" width="80" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -84,6 +88,10 @@
         <scene sceneID="Rj1-ey-oUK">
             <objects>
                 <viewController id="Ctl-Hw-fDn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FMb-JF-eXt"/>
+                        <viewControllerLayoutGuide type="bottom" id="kcu-qk-pac"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2Af-mO-3b1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
