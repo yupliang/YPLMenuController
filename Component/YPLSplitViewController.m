@@ -7,7 +7,6 @@
 //
 
 #import "YPLSplitViewController.h"
-#import "YPLDetailViewController.h"
 
 @interface YPLSplitViewController ()<UIScrollViewDelegate>
 
