@@ -17,6 +17,7 @@
 		FD2064CD1FBEE42500290402 /* YPLSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2064CC1FBEE42500290402 /* YPLSplitViewController.m */; };
 		FD2064D01FBEE9FA00290402 /* YPLMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2064CF1FBEE9FA00290402 /* YPLMenuViewController.m */; };
 		FD2064D31FBEEA1F00290402 /* YPLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2064D21FBEEA1F00290402 /* YPLDetailViewController.m */; };
+		FD2064D61FBEF61C00290402 /* YPLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2064D51FBEF61C00290402 /* YPLTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		FD2064CF1FBEE9FA00290402 /* YPLMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPLMenuViewController.m; sourceTree = "<group>"; };
 		FD2064D11FBEEA1F00290402 /* YPLDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPLDetailViewController.h; sourceTree = "<group>"; };
 		FD2064D21FBEEA1F00290402 /* YPLDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPLDetailViewController.m; sourceTree = "<group>"; };
+		FD2064D41FBEF61C00290402 /* YPLTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPLTableViewController.h; sourceTree = "<group>"; };
+		FD2064D51FBEF61C00290402 /* YPLTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPLTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,8 @@
 				FD2064A71FBED87600290402 /* AppDelegate.m */,
 				FD2064A91FBED87700290402 /* ViewController.h */,
 				FD2064AA1FBED87700290402 /* ViewController.m */,
+				FD2064D41FBEF61C00290402 /* YPLTableViewController.h */,
+				FD2064D51FBEF61C00290402 /* YPLTableViewController.m */,
 				FD2064AC1FBED87700290402 /* Main.storyboard */,
 				FD2064AF1FBED87700290402 /* Assets.xcassets */,
 				FD2064B11FBED87700290402 /* LaunchScreen.storyboard */,
@@ -235,6 +240,7 @@
 				FD2064A81FBED87600290402 /* AppDelegate.m in Sources */,
 				FD2064D01FBEE9FA00290402 /* YPLMenuViewController.m in Sources */,
 				FD2064CD1FBEE42500290402 /* YPLSplitViewController.m in Sources */,
+				FD2064D61FBEF61C00290402 /* YPLTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
